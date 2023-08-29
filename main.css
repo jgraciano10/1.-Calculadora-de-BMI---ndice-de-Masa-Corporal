@@ -1,0 +1,44 @@
+form {
+    padding: 50px;
+    margin-left: 220px;
+}
+
+/*ul, li {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}*/
+
+/* Style for the vertical navigation container */
+.vertical-nav {
+    background-color: #f0f0f0; /* Adjust to your desired background color */
+    width: 200px; /* Adjust the width as needed */
+    height: 100%; /* Make the navigation fill the entire height of the container */
+    position: fixed; /* Fix the navigation on the page */
+    top: 0;
+    left: 0;
+}
+.vertical-nav a {
+    display: block; /* Make each item take the full width of the container */
+    padding: 10px;
+    text-decoration: none;
+    color: #333; /* Adjust the font color as needed */
+}
+
+/* Change the background color when hovering over a navigation item */
+.vertical-nav a:hover {
+    background-color: #ddd; /* Adjust the hover background color as needed */
+}
+
+/* Style for the content sections linked with the navigation */
+div[id^="section"] {
+    margin-left: 220px; /* Give some space to the content to avoid overlap with the navigation */
+    padding: 20px; /* Add some padding to the content */
+}
+
+.listas{
+    margin: 0;
+    padding: 0 0 0 1000px;
+    list-style: none;
+   ;
+}
